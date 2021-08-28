@@ -1,0 +1,181 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #0b1018;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container-box {
+    padding: 0px 15%;
+}
+
+.section-box {
+    padding: 100px 0px 0px;
+}
+
+.primary-text {
+    color: #a18d4c;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.header-bg {
+    background: #fffef7;
+}
+
+.site-header .navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #0b1018;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 25px;
+}
+
+#home {
+    position: relative;
+}
+
+.main-banner {
+    padding: 100px 0px;
+    background-color: #fffef7;
+}
+
+.banner-content .title h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+.banner-content .desc-content {
+    max-width: 500px;
+}
+
+.more-btn .btn {
+    background-color: #a18d4c;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 99px;
+}
+
+.section-title .title h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.section-title .title p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-box {
+    margin-bottom: 50px;
+}
+
+.content-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    position: relative;
+    display: inline-block;
+}
+
+.content-box h3::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 7px;
+    background: #e3dcc9;
+    width: 75%;
+    height: 10px;
+    z-index: -1;
+}
+
+.content-box p {
+    font-size: 19px;
+}
+
+.testimonials-item {
+    background: #fefef4;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 0px 15px;
+}
+
+.testimonials-item img {
+    max-width: 65px;
+    border-radius: 99px;
+}
+
+.testimonials-item p {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.contact-info {
+    border-radius: 10px;
+}
+
+.box-title h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.box-title h3::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 7px;
+    background: #e3dcc9;
+    width: 75%;
+    height: 10px;
+    z-index: -1;
+}
+
+#footer {
+    margin-top: 100px;
+    padding: 50px 0px 0px;
+    background-color: #fffef7;
+}
+
+.footer-logo {
+    width: 100px;
+    margin: 0 auto 50px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    width: 24px;
+    margin: 0px 15px;
+    display: inline-block;
+}
