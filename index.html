@@ -26,27 +26,27 @@
                     <nav class="navbar navbar-expand-sm header-bg d-lg-flex d-none">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="#aboutus">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="#ourprogram">Our Program</a>
                             </li>
                         </ul>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                             <img src="./assets/images/TBI-logo.png" alt="Logo" />
                         </a>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="#membershipapplication">Membership Application</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="#testimonials">Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"></a>
+                                <a class="nav-link" href="#contactus">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -61,22 +61,22 @@
                             <span></span>
                             <ul id="menu">
                                 <a href="#">
-                                    <li></li>
+                                    <li>Home</li>
                                 </a>
                                 <a href="#">
-                                    <li></li>
+                                    <li>About Us</li>
                                 </a>
                                 <a href="#">
-                                    <li></li>
+                                    <li>Professional Development</li>
                                 </a>
                                 <a href="#">
-                                    <li></li>
+                                    <li>Continuing Education</li>
                                 </a>
                                 <a href="#">
-                                    <li></li>
+                                    <li>Testimonials</li>
                                 </a>
                                 <a href="#">
-                                    <li></li>
+                                    <li>Contact</li>
                                 </a>
                             </ul>
                         </div>
@@ -90,7 +90,7 @@
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6 pl-xl-5 px-4">
                     <div class="banner-content">
-                        <h4 class="primary-text">...About Us...</h4>
+                        <h4 id="aboutus" class="primary-text">...About Us...</h4>
                         <div class="title">
                             <h1>Learning Center</h1>
                             <h1>for Your Kids</h1>
@@ -113,7 +113,7 @@
         <div id="about" class="section-box">
             <div class="section-title text-center">
                 <div class="title mb-md-5">
-                    <h2>Our <span class="primary-text">Program</span> </h2>
+                    <h2 id="ourprogram">Our <span class="primary-text">Program</span> </h2>
                 </div>
             </div>
             <div class="container-fluid container-box">
@@ -162,7 +162,7 @@
                     <div class="col-lg-6">
                         <div class="content-box">
                             <div class="description">
-                                <h3>Membership Application</h3>
+                                <h3 id="membershipapplication">Membership Application</h3>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires.</p>
                                                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires.</p>
                             </div>
@@ -180,7 +180,7 @@
         <div id="testimonials" class="section-box">
             <div class="section-title text-center">
                 <div class="title mb-md-5">
-                    <h2>Client <span class="primary-text">Testimonials</span></h2>
+                    <h2 id="testimonials">Client <span class="primary-text">Testimonials</span></h2>
                 </div>
             </div>
             <div class="container-fluid container-box">
@@ -241,7 +241,7 @@
         <div id="contact-us" class="section-box">
             <div class="section-title text-center">
                 <div class="title mb-md-5">
-                    <h2>Contact <span class="primary-text">Us</span></h2>
+                    <h2 id="contactus">Contact <span class="primary-text">Us</span></h2>
                     <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
                 </div>
             </div>
@@ -251,7 +251,10 @@
                         <form action="https://formsubmit.co/me@elyserobinson.com" method="POST" />
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" name="name" class="form-control form-control-lg" id="firstName" placeholder="First Name">
+                                    <input type="text" class="form-control form-control-lg" id="firstName" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control form-control-lg" id="lastName" placeholder="Last Name">
                                 </div>
                             </div>
                             <div class="form-row">
